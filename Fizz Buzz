@@ -1,0 +1,10 @@
+class Solution:
+    def fizzBuzz(self, n: int) -> List[str]:
+        ans =   []                                                              
+        for m   in  range    (1,n+1)  :                                 
+            if   m   %   15  ==  0   :                                                                          ans_str   =   "FizzBuzz"                                           
+            elif   m   %   3   ==  0   :                                                                        ans_str   =   "Fizz"                                               
+            elif   m   %   5   ==  0   :                                                                        ans_str   =   "Buzz"                                            
+            else   :                                                                                            ans_str   =   str(m)                                        
+            ans.append(ans_str)                                         
+        return  ans    
