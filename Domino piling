@@ -1,0 +1,4 @@
+M = int(input())
+N = int(input())
+num = (M * N) // 2
+print(num)
